@@ -6,6 +6,10 @@
     background-color: red;
 }
 
+#blanco {
+    background-color: white;
+}
+
 #estrella {
     fill: white;
     width: 3rem;
