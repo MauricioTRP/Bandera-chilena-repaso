@@ -1,19 +1,40 @@
-#wrapper {
-    background: darkgray;
+body * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-.text-blue {
-    color: #0037a1;
+.caja {
+    border: 3px solid;
+    width: 23rem;
 }
 
-.text-red {
-    color: #d02a1e;
+.fila {
+    width: 100%;
+    display: flex;
 }
 
-.text-white {
-    color: white;
+.caja-azul {
+    background-color: blue;
+    width: 30%;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.text-center {
-    text-align: center;
+.caja-blanca {
+    width: 70%;
+}
+
+.caja-roja {
+    background-color: red;
+    width: 100%;
+    height: 5rem;
+}
+
+#estrella {
+    fill: white;
+    width: 3rem;
+    height: 3rem;
 }
