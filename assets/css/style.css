@@ -10,8 +10,17 @@
     background-color: white;
 }
 
-#estrella {
-    fill: white;
-    width: 3rem;
-    height: 3rem;
+img{
+    width: 50px;
+    height: 50px;
+}
+
+.color
+{
+    background: blueviolet;
+}
+
+#rojo, #azul, #blanco
+{
+    height: 100px;
 }
